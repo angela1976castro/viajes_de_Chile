@@ -1,190 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Viajes Chile</title>
 
-
     <!-- CONECTANDO  BOOTSTRAP  CON CDN-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
 
     <!-- CONECTANDO CON MI CSS -->
-    <link rel="stylesheet" href="assets/css/miestilo.css">
-
+    <link rel="stylesheet" href="assets/css/miestilo.css" />
 
     <!-- CONECTANDO BOOSTRAP CON LOCAL
     <link rel="stylesheet" href="assets/css/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css"> -->
 
-
     <!-- CONECTANDO TIPOS DE LETRAS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- INSERTANDO ICONOS FAVICON -->
-    <link rel="shortcut icon" href="assets/img/viajes.svg" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="assets/img/viajes.svg"
+      type="image/x-icon"
+    />
 
     <!-- CONECTANDO ICONOS PARA REDES SOCIALES awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <main>
-        <!-- AGREGANDO NAV DESDE BOOSTRAP -->
-        <nav class="navbar   navbar-expand-md  nav_color fixed-top   ">
-            <div class="container-fluid">
-              <a class="navbar-brand  " href="#"><img src="assets/img/viajes.svg" width="100px"  height="70px" alt=""
-                 ></a>
-              <button class="navbar-toggler navbar-dark border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Quines Somos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Destacados</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Contacto</a>
-                  </li>
-
-                </ul>
-
-              </div>
-            </div>
-
-
-          </nav>
-          <!-- AGREGANDO CARRUSEL DESDE BOOSTRAP -->
-
-          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+      <!-- AGREGANDO NAV DESDE BOOSTRAP -->
+      <nav class="navbar navbar-expand-md nav_color fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="assets/img/viajes.svg"
+              width="100px"
+              height="70px"
+              alt=""
+          /></a>
+          <button
+            class="navbar-toggler navbar-dark border-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  >inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Quines Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Destacados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contacto</a>
+              </li>
+            </ul>
           </div>
+        </div>
+      </nav>
+      <!-- AGREGANDO CARRUSEL DESDE BOOSTRAP -->
 
-          <!-- AGREGANDO INFORMACIÓN QUIENES SOMOS -->
-          <section class="container text-center" >
-                <h2>Quienes Somos</h2>
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/img/carousel1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/carousel2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/carousel3.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
-                <div class="d-flex ">
+      <!-- AGREGANDO INFORMACIÓN QUIENES SOMOS -->
+      <section class="container text-center">
+        <h2 class="text-white">Quienes Somos</h2>
 
-                    <article> 
-                      <i class="fa-solid fa-plane fa-3x"></i>                     
-                      <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam debitis quos modi explicabo repellat quibusdam esse perferendis odio dolorum voluptatum. In mollitia unde quisquam veritatis exercitationem voluptas rem suscipit corporis.   ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
-                  </article>
-                    
-                  <article>
-                      
-                      <p class="text-center">Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci iste eius nam animi autem placeat. Aperiam, odio. Omnis maxime, dignissimos quaerat nemo quibusdam aliquam, excepturi voluptates debitis necessitatibus, adipisci sint.  ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
-                      <i class="fa-solid fa-mountain fa-3x "></i>
-                 </article>
+        <div class="d-flex">
+          <article>
+            <i class="fa-solid fa-plane fa-3x"></i>
+            <p class="text-center text-white">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
+              debitis quos modi explicabo repellat quibusdam esse perferendis
+              odio dolorum voluptatum. In mollitia unde quisquam veritatis
+              exercitationem voluptas rem suscipit corporis. ipsum dolor sit
+              amet, consectetur adipiscing elit. Etiam a mauris id purus blandit
+              dapibus.
+            </p>
+          </article>
 
-                  <article>
-                       <i class="fa-duotone fa-route fa-3x"></i>
-                      <p class="text-center">Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae alias delectus commodi. Accusamus voluptatem inventore rerum. Incidunt, non eligendi temporibus culpa, voluptates labore, cupiditate ad esse velit necessitatibus facere illum. ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
-                               
-                 </article>
+          <article>
+            <p class="text-center text-white">
+              Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Adipisci iste eius nam animi autem placeat. Aperiam, odio. Omnis
+              maxime, dignissimos quaerat nemo quibusdam aliquam, excepturi
+              voluptates debitis necessitatibus, adipisci sint. ipsum dolor sit
+              amet, consectetur adipiscing elit. Etiam a mauris id purus blandit
+              dapibus.
+            </p>
+            <i class="fa-solid fa-mountain fa-3x"></i>
+          </article>
+
+          <article>
+            <i class="fa-duotone fa-route fa-3x"></i>
+            <p class="text-center text-white">
+              Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Recusandae alias delectus commodi. Accusamus voluptatem inventore
+              rerum. Incidunt, non eligendi temporibus culpa, voluptates labore,
+              cupiditate ad esse velit necessitatibus facere illum. ipsum dolor
+              sit amet, consectetur adipiscing elit. Etiam a mauris id purus
+              blandit dapibus.
+            </p>
+          </article>
+        </div>
+      </section>
+      <!-- AGREGANDO card para informacion de destacados -->
+      <section class=" container text-white">
+        <div>
+          <h2>DESTACADOS</h2>
+        </div>
+        <div class=" card" style="width: 18rem">
+          <img src="assets/img/card1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="assets/img/card2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="assets/img/card3.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="assets/img/card4.jpg " class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FORMULARIO DE CONTACTO -->
+      <form class="text-white">
+        <h2 class="text-center">CONTACTO</h2>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Nombre</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Asunto</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Mensaje</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
         
-                  </div>
-            </section>
-            <!-- AGREGANDO card para informacion de destacados -->
-            <div class="card" style="width: 18rem;">
-                <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem;">
-                <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem;">
-                <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem;">
-                <img src="assets/img/card4.jpg " class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-
-              <!-- FORMULARIO DE CONTACTO -->
-              <section class="container- fluid text-center">
-                <div>
-                    <h1>Contacto</h1>
-                </div>
-
-               <form class="text-star">
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Nombre</label>
-                  <input  placeholder="Nombre"  type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                 
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Asunto</label>
-                  <input placeholder="Asunto"  type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-          
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Mensaje</label>
-                  <input placeholder="Mensaje"   type="mensaje" class="form-control" id="exampleInputPassword1">
-                </div>
-                
-                <div class=" d-grid gap-2 d-md-flex justify-content-md-end p" >
-                  <button type="submit" class="btn btn-primary  justify-content- md-end">Enviar</button>
-                </div>
-                
-               </form>
-          
-              </section>
-
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
     </main>
-
 
     <!-- Agregando footer -->
     <footer>
-        
-        <div class="container-fluid ">
-            <h3>VIAJES CHILE</h3>
-
-            <i class="fa-brands fa-github fa-3x"></i>
-            <i class="fa-brands fa-linkedin fa-3x"></i>
-            <i class="fa-brands fa-square-twitter fa-3x"></i>
-            <i class="fa-brands fa-square-facebook fa-3x"></i>
-
-        </div>
+      <div class="container-fluid text-white">
+        <h3>VIAJES CHILE</h3>
+        <i class="fa-brands fa-github fa-3x"></i>
+        <i class="fa-brands fa-linkedin fa-3x"></i>
+        <i class="fa-brands fa-square-twitter fa-3x"></i>
+        <i class="fa-brands fa-square-facebook fa-3x"></i>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
