@@ -1,19 +1,49 @@
 *{
     font-family: 'Open Sans', sans-serif;
+  
+}
+/* seccion principal */
+ main{
     background-color: black;
-}
+ }
 
-
-
-
-
-
-
-
-
-
-/* footer */
-footer{
-    background-color: hsl(197, 88%, 68%)%);
-}
+ /* seccion quienes somos */
+.quienes_somos{
+    margin: 10px  10px;
     
+ } 
+.iconos{
+    background-color: #17A2B8;
+    margin: 20px;
+}
+
+
+/* seccion cards */
+.imagen_cards{
+    width: 386;
+    height: 231px;
+    
+
+}
+.card-body{
+    background-color: #17A2B8;
+    
+}
+ /* seccion formulario */
+.contacto{
+    margin: 10px;
+}
+
+.boton_enviar{
+    background-color: #17A2B8 ;
+    margin: 10px;
+}
+
+
+/*  seccion de footer */
+footer{
+    background-color: #17A2B8;
+    
+    
+}
+
