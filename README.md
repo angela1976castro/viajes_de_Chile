@@ -17,6 +17,24 @@ git add --all
 ```
 para agregar estado normal del ultimo commit 
 ```bash 
-git reset
+git reset --hard
 ```
+para crear nuestra version 
+usamos el commit
+```bash 
+git commit -m "titulo del commit"
+```
+commit solo para archivos existentes
+```bash 
+git commit -am "titulo del commit"
+```
+
+para reconstruir todos los archivos y modificaciones sobre el ultimo commit
+```bash 
+git checkout --.
+```
+
+
+
+
 
