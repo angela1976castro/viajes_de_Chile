@@ -1,11 +1,9 @@
 
 
 # Proyecto Viajes de Chile 
-<<<<<<< HEAD
 
-=======
 https://angela1976castro.github.io/viajes_de_Chile/
->>>>>>> fb48643a16a12e6472a7cf18f5b627481bbc74d4
+
  
 
 # comandos mas usados de git 
