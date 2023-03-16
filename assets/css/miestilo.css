@@ -25,13 +25,18 @@
  }
 .iconos{
     background-color: #17A2B8;
-    margin: 20px;
+    margin: 10px;
+    
 }
 
 
 /* seccion cards */
+
+.destacados{
+    padding: 80px;
+}
 .imagen_cards{
-    width: 386;
+    
     height: 231px;
     
 
@@ -42,7 +47,8 @@
 }
  /* seccion formulario */
 .contacto{
-    margin: 10px;
+    
+    padding: 80px;
 }
 
 .boton_enviar{
@@ -54,6 +60,8 @@
 /*  seccion de footer */
 footer{
     background-color: #17A2B8;
+    padding: 20px;
+
     
     
 }
