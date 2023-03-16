@@ -2,6 +2,12 @@
     font-family: 'Open Sans', sans-serif;
   
 }
+
+/* cambiando tamaño de imagen */
+.imagen_carrusel{
+    width: 100%;
+    height: 600px;
+}
 /* seccion principal */
  main{
     background-color: black;
@@ -9,9 +15,14 @@
 
  /* seccion quienes somos */
 .quienes_somos{
-    margin: 10px  10px;
+    padding: 20px;
+    
     
  } 
+ .texto{
+    text-align: justify;
+    padding: 10px;
+ }
 .iconos{
     background-color: #17A2B8;
     margin: 20px;
