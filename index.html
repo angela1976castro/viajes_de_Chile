@@ -46,9 +46,10 @@
   </head>
 
   <body>
+    
     <main>
       <!-- AGREGANDO NAV DESDE BOOSTRAP -->
-      <nav class="navbar navbar-expand-md  fixed-top">
+      <nav class="navbar navbar-expand-md fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"
             ><img
@@ -78,17 +79,19 @@
                   class="nav-link active text-white"
                   aria-current="page"
                   href="#"
-                  >Inicio</a
+                  >INICIO</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Quienes Somos</a>
+                <a class="nav-link text-white" href="#QUIENES SOMOS"
+                  >QUIENES SOMOS</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Destacados</a>
+                <a class="nav-link text-white" href="#DESTACADOS">DESTACADOS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contacto</a>
+                <a class="nav-link text-white" href="#CONTACTO">CONTACTO</a>
               </li>
             </ul>
           </div>
@@ -143,22 +146,21 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-        <br>
+      <br />
       <!-- AGREGANDO INFORMACIÓN QUIENES SOMOS -->
-      <section class="container text-center quienes_somos">
+      <section class="container text-center " id="QUIENES SOMOS">
         <div>
           <h2 class="text-white">¿QUIÉNES SOMOS?</h2>
         </div>
-        <br>
-        
+        <br />
 
-        <div class=" col-sm-12 col-lg 4 my-3  d-flex py-3">
+        <div class="col-sm-12 col-lg 4 my-3 d-flex py-3">
           <article>
             <div class="iconos">
               <i class="fa-solid fa-plane fa-2x text-white"></i>
             </div>
-            
-            <p class="texto text-white ">
+
+            <p class="texto text-white">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
               debitis quos modi explicabo repellat quibusdam esse perferendis
               odio dolorum voluptatum. In mollitia unde quisquam veritatis
@@ -177,13 +179,16 @@
               amet, consectetur adipiscing elit. Etiam a mauris id purus blandit
               dapibus.
             </p>
-            <div class="iconos"><i class="fa-solid fa-mountain fa-2x text-white"></i></div>
-            
+            <div class="iconos">
+              <i class="fa-solid fa-mountain fa-2x text-white"></i>
+            </div>
           </article>
 
           <article>
-            <div class="iconos"><i class="fa-solid fa-route fa fa-2x text-white"></i></div>
-            
+            <div class="iconos">
+              <i class="fa-solid fa-route fa fa-2x text-white"></i>
+            </div>
+
             <p class="texto text-white">
               Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Recusandae alias delectus commodi. Accusamus voluptatem inventore
@@ -195,100 +200,143 @@
           </article>
         </div>
       </section>
-      <br>
+      <br />
       <!-- AGREGANDO card para informacion de destacados -->
 
-      <h2 class="text-center text-white">DESTACADOS</h2>
-      
+      <h2 id="DESTACADOS" class="text-center text-white">DESTACADOS</h2>
 
       <section class="destacados">
-        <div class="row row-cols-1 row-cols-md-4  " >
-        <div class="col">
-          <div class="card">
-            <img class="imagen_cards"  src="assets/img/card1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              
-              <p class="card-text text-white">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <div class="row row-cols-1 row-cols-md-4">
+          <div class="col">
+            <div class="card">
+              <img
+                class="imagen_cards"
+                src="assets/img/card1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-white">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                class="imagen_cards"
+                src="assets/img/card2.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-white">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                class="imagen_cards"
+                src="assets/img/card3.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-white">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content.This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                class="imagen_cards"
+                src="assets/img/card4.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card- text-white">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <img class="imagen_cards" src="assets/img/card2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              
-              <p class="card-text text-white">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img class="imagen_cards" src="assets/img/card3.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-             
-              <p class="card-text text-white">This is a longer card with supporting text below as a natural lead-in to additional content.This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img class="imagen_cards" src="assets/img/card4.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              
-              <p class="card- text-white">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-      </div>
       </section>
-      
-      
 
       <!-- FORMULARIO DE CONTACTO -->
-      <section class="contacto">
+      <section class="contacto" id="CONTACTO">
         <form class="text-white">
-        <h2 class="text-center ">CONTACTO</h2>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Nombre</label>
-          <input placeholder="" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Asunto</label>
-          <input placeholder="" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Mensaje</label>
-            <input placeholder="" class="form-control" id="">
+          <h2 class="text-center">CONTACTO</h2>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Nombre</label>
+            <input
+              placeholder=""
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
           </div>
-        
-        <button type="submit" class="btn btn-primary boton_enviar">Enviar</button>
-      </form>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Asunto</label>
+            <input
+              placeholder=""
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Mensaje</label
+            >
+            <input placeholder="" class="form-control" id="" />
+          </div>
+
+          <button type="submit" class="btn btn-primary boton_enviar">
+            Enviar
+          </button>
+        </form>
       </section>
-      
-
-
     </main>
 
     <!-- Agregando footer -->
     <footer>
-      <div class="container text-white ">
+      <div class="container text-white">
         <div class="row">
-          <div class="col-sm-6 col-md-8  my-3">
+          <div class="col-sm-6 col-md-8 my-3">
             <h3>VIAJES CHILE</h3>
           </div>
-              <!-- ICONOS Y LINKS REDES SOCIALES -->
-          <div class="col-sm-12 col-lg 4 my-3 ">
-            <a href="https://github.com/"> <i class="fa-brands fa-github fa-3x text-white"></i></a>
-            
-            <a href="https://cl.linkedin.com/"><i class="fa-brands fa-linkedin fa-3x text-white"></i></a>
-            
-            <a href="https://twitter.com"><i class="fa-brands fa-square-twitter fa-3x text-white"></i></a>
-            <a href="https://facebook.com/"><i class="fa-brands fa-square-facebook fa-3x text-white"></i></a>
-          </div>
-          
+          <!-- ICONOS Y LINKS REDES SOCIALES -->
+          <div class="col-sm-12 col-lg 4 my-3">
+            <a href="https://github.com/">
+              <i class="fa-brands fa-github fa-3x text-white"></i
+            ></a>
 
-        
+            <a href="https://cl.linkedin.com/"
+              ><i class="fa-brands fa-linkedin fa-3x text-white"></i
+            ></a>
+
+            <a href="https://twitter.com"
+              ><i class="fa-brands fa-square-twitter fa-3x text-white"></i
+            ></a>
+            <a href="https://facebook.com/"
+              ><i class="fa-brands fa-square-facebook fa-3x text-white"></i
+            ></a>
+          </div>
         </div>
       </div>
     </footer>
@@ -296,6 +344,10 @@
     <!-- <script src="assets/css/bootstrap-5.3.0-alpha1-dist/js/bootstrap.js"></script> -->
 
     <!-- CONECTANDO SCRIPT  DEL CDN BOOTSTRAP-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>   
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
